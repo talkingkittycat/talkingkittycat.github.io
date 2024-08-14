@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7afnpV-BGlaFfdAhLEY6w&skey=a1029226f80653a8&v=v15) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body {
+    background-image: url("https://w.wallhaven.cc/full/nk/wallhaven-nkxd16.jpg");
+    background-size: cover;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 15px;
+}
+.mainbody {
+    width: 70%;
+    font-size: 24px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+ul {
+    display: inline-block;
+    text-align: center;
+}
+.navbar {
+    width: 100%;
+    background-image: linear-gradient(gray, black);
+    overflow: auto;
+    margin-bottom: 15px;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 22px;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 17;
+}
+
+.navbar a:hover {
+   background-color: #cdcdcd;
+   color: black;
+}
+/* .navbar a.active { */
+/*     background-color: #04AA6D; */
+/*     color: white */
+/* } */
+.list1 {
+    width: 65%;
+    height: 5%;
+    float: center;
+    text-align: center;
+    background-image: linear-gradient(white, gray, black);
+    overflow: auto;
+}
